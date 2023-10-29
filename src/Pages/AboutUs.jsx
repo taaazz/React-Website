@@ -7,7 +7,7 @@ import App from "../Assets/UIApp.png";
 
 function AboutUs() {
   return (
-    <Container style={{ marginTop: "70px", marginBottom: "100px" }}>
+    <Container style={{ marginTop: "150px", marginBottom: "100px" }}>
       <Row style={{ marginBottom: "100px" }}>
         <Col md={6}>
           <Carousel>

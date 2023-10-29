@@ -4,7 +4,7 @@ import google from "../Assets/google.png";
 
 function ContactUs() {
   return (
-    <Container style={{ marginTop: "70px", marginBottom: "70px" }}>
+    <Container style={{ marginTop: "150px", marginBottom: "70px" }}>
       <Row>
         <Col md={6}>
           <h1>Download MiLab</h1>

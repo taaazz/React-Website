@@ -2,12 +2,12 @@ import React from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import ilabLogo from "../Assets/logo-ilab.png";
 import { Link } from "react-router-dom";
-import "../Components/style/Navbar.style.css"; // Sesuaikan dengan path file CSS yang benar
+import "../Components/style/Navbar.style.css";
 
 export const NavBar = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-white sticky-top">
+      <Navbar expand="lg" className="bg-body-white fixed-top">
         <Container>
           <Navbar.Brand href="#home">
             <img src={ilabLogo} alt="logo" width="100" height="50" />
