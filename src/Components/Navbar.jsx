@@ -7,7 +7,7 @@ import "../Components/style/Navbar.style.css"; // Sesuaikan dengan path file CSS
 export const NavBar = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary sticky-top">
+      <Navbar expand="lg" className="bg-body-white sticky-top">
         <Container>
           <Navbar.Brand href="#home">
             <img src={ilabLogo} alt="logo" width="100" height="50" />

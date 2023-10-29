@@ -7,8 +7,8 @@ import App from "../Assets/UIApp.png";
 
 function AboutUs() {
   return (
-    <Container style={{ marginTop: "70px" }}>
-      <Row>
+    <Container style={{ marginTop: "70px", marginBottom: "100px" }}>
+      <Row style={{ marginBottom: "100px" }}>
         <Col md={6}>
           <Carousel>
             <Carousel.Item>
@@ -58,7 +58,7 @@ function AboutUs() {
           </section>
         </Col>
       </Row>
-      <Row style={{ marginTop: "50px" }}>
+      <Row>
         <div className="col-sm-4">
           <ul className="icon-list animate-group">
             <li>
