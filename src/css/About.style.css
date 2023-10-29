@@ -1,0 +1,47 @@
+.icon-list-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circle-icon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; /* Menambahkan margin antara ikon dan h4 */
+}
+
+.icon-text h4 {
+  color: black;
+  text-align: center;
+}
+
+.icon-list-content i {
+  color: white;
+}
+
+.icon-text p {
+  text-align: center;
+  color: grey;
+  font-weight: thin;
+}
+
+.col-sm-4 ul {
+  list-style: none;
+}
+
+@media (min-width: 1200px) {
+  .icon-list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-list-content .circle-icon {
+    margin-bottom: 10px;
+  }
+}

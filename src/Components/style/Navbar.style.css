@@ -1,0 +1,11 @@
+.nav-link.active {
+  background-color: black; /* Ganti your-color dengan warna yang diinginkan */
+  color: #fff; /* Warna teks saat aktif */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Gantilah dengan warna latar belakang yang sesuai */
+  z-index: 1000; /* Atur indeks z agar navbar tampil di atas elemen lain */
+}
