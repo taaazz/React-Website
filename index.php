@@ -6,4 +6,4 @@ use Controller\ProductController;
 
 $productController = new ProductController;
 
-echo $productController -> getAllProduct();
+echo $productController->getAllProduct();
